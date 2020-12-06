@@ -23,7 +23,7 @@ class JenkinsSpringExapleApplicationTests {
         this.mockMvc.perform(get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Viva Wroclaw"));
+                .andExpect(content().string("Viva Wroclaw -- helo helo"));
     }
 
 }
